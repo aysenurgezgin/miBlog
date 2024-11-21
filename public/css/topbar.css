@@ -1,0 +1,58 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fff;
+}
+
+.topbar .left, .topbar .right{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topbar .center{
+    flex: 6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topbar .right span img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.topbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+ Hepsinin display block özellikleri kayboldu,sahip olundukları ebeveyn elementinin 
+ displayi flex özelliği diğerleri ovverrigth etti(ezdi)ve hepsi artık aynısatır içerisinde
+ sıralamış oldu
+ Flex önemli bir özellik 12birim meselesi(1 row içinde 12 tane column)onun yerine width değeri
+ ve flex-wrap;wrap özelliği de kullaılırdı ama daha hassa olur ve taşma ihtimalini arttırmış olurduk.
+
+ justify-content: space-evenly;eşit aralıklı boşluklar bıraktırdı.
+
+   */

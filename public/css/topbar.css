@@ -29,8 +29,23 @@
     border-radius: 50%;
 }
 .topbar .right .searchEngine{
-    
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
 }
+.topbar .right .searchEngine i{
+   position: absolute;
+   right: 0px;
+   background-color: orange;
+   width: 30px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 
 
 
@@ -58,3 +73,21 @@
  justify-content: space-evenly;eşit aralıklı boşluklar bıraktırdı.
 
    */
+   /* 
+   position: relative;yapıp
+   Ebeveyn elementim;
+   .topbar .right .searchEngine{
+    background-color: orange;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+}
+    içerisinde ki child elementinin ise position değerini(i)absulute olarak ayarladım,daha sonra left değerini
+20 ayarlarsam;elementin bulunduğu alana göre kendsini hizlamasını.Posotion relativ demezsek bulunduğu ebevyn ele-
+mentine göre değil sayfanın body elementine göre hizalar.aslında left değil right değerin değiştiricem ve 0 olarak
+en sol olmuş olucak yani.
+
+
+ */

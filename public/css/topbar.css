@@ -3,10 +3,15 @@
     height: 50px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
     background-color: #fff;
 }
-
+.topbar .wrapper{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+}
 .topbar .left, .topbar .right{
     flex: 3;
     height: 100%;

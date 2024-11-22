@@ -14,6 +14,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.topbar .left i{
+    font-size: 1.3rem;
+}
 
 .topbar .center{
     flex: 6;
@@ -53,11 +56,26 @@
 .topbar .right .searchEngine input{
     width: 100%;
     margin-right: 20px;
-    height: 20px;
+    height: 25px;
     border-radius:3px ;
     padding: 0px 0px 0px 10px;
+    opacity: 0;
+    transition: all 0.5s;
  }
 
+ .topbar .right .searchEngine{
+    width: 0px;
+    transition: all 0.5s;
+
+   }
+
+ .topbar .right .searchEngine.active{
+ width: 70%;
+}
+
+.topbar .right .searchEngine.active input{
+    opacity: 1;
+ }
 
 
 

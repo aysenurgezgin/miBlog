@@ -82,10 +82,22 @@
     opacity: 1;
  }
 
+/* Scroll animation */
+.topbar .wrapper{
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translateY(-10px);
+}
 
+.topbar .wrapper.active{
+    opacity: 1;
+    transform: translateY(0px);
 
+}
 
-
+.topbar .left i{
+    font-size: 1.3rem;
+}
 
 
 

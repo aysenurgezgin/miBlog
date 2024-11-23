@@ -54,3 +54,5 @@ targets.forEach((target=>{
     // })
 // targets.forEach diycem ve bütün target değerlerim de observer observe özelliğini ekle,artık bunlar observe edilmiş;kont edilmiş
 // olacaklar observer tarafından
+
+//Scroll animasyonu için topbar.css de değerlerimizi ekliyoruz;

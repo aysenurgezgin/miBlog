@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+html::-webkit-scrollbar{
+    width: 0px;
+}
+html{
+    scroll-behavior:smooth ;
+}
 body{
     width: 100%;
     height: auto;
@@ -23,3 +29,10 @@ ul{
     2)img ve video elementlerinin eklememin sebebi kendi orjinal boyurunda değil
 bulunduğu alanın 100de 100ünü tamamlamasını istediğim için.Default olarak boyut vermiş olduk.
 */
+/* html::-webkit-scrollbar{
+    width: 0px;ve 
+    html{
+    scroll-behavior:smooth ;
+} yaparsam=)
+     scrollu ortadan kaldırıyor.
+} */

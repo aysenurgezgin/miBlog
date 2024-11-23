@@ -6,14 +6,21 @@ const options ={
 
 const callBack=(entries)=>{
     entries.forEach((entry)=>{
-        console.log(entry)
+        if(entry.isIntersecting){
+            entry.target.classList.add('active')
+        }
+        else{
+            entry.target.classList.remove('active')
+        }
     })
 } 
 
 
 const observer =new IntersectionObserver(callBack,options);
 
-
+targets.forEach((target=>{
+    observer.observe(target)
+}))
 
 // Bizim herbir elementimizde scroll animasyonu var;benim elementlerle yazacağım animasyon arasında
 //bağlantı kurmam gerekiyor;elementlerin sahip olduğu bir alana benim de sahip olmam gerekiyor ki buradan 

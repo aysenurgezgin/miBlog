@@ -1,8 +1,20 @@
 const targets= document.querySelectorAll('.target')
 
-targets.forEach((target)=>{
-    console.log(target)
-})
+const options ={
+    treshold:0.3
+}
+
+const callBack=(entries)=>{
+    entries.forEach((entry)=>{
+        console.log(entry)
+    })
+} 
+
+
+const observer =new IntersectionObserver(callBack,options);
+
+
+
 // Bizim herbir elementimizde scroll animasyonu var;benim elementlerle yazacağım animasyon arasında
 //bağlantı kurmam gerekiyor;elementlerin sahip olduğu bir alana benim de sahip olmam gerekiyor ki buradan 
 //o elementlere müdahele edebileyim.örn benim herbie elementle aramda className gibi bir bağlantı olsa;ben 
@@ -23,4 +35,15 @@ targets.forEach((target)=>{
 //tüleniyorsa git onu çek göster diycez ve bu nedenle bir döngüyle ekrana yazdırıcaz 
 // Birden çok elementi tek seferde bir animasyon vericem aslında Daha sonra bunlara css kod yazarak bunları değiştiricez.
 
-// Projemizin baş kahramanı  IntersectionObserver
+// Projemizin baş kahramanı  IntersectionObserver;
+// const observer =new IntersectionObserver()içine iki parametre ister;1.si callback 2.de options gönder()içine yazmıyoruz=)
+// Daha güzel bir görüntü elde etmek adına bunları dışarı yazıp daha sonra içerisine göndericem.
+// Optionslar birden fazla şekl olabiliyor;biz treshold kullanıcz=Sayfa içinde gösterilme oranını temsil ediyor.Daha sonra bu
+// bir tane callback parantezi almakta içinde entries değerlerini barındıracak bu değerlerde birdern çok olduğu için foreach
+// döngüzü ile içersine girmek gerekiyor.içinde ki değerleri entry ile alıcam ve clg ile(enty)değerlerini bastırıcam en sonunda
+// ıntersectionobserver içine (callback,options)değerini gönderdim.Daha sonra da elde etmiş old. observeri kullanarak biz ilk önce
+// yazmış old elementlere(targets)müdehelelerimizi gerçekleştirmiş olruz.Bunun içinde targets.forEach((target)=>{
+    // observer.observe(target)
+    // })
+// targets.forEach diycem ve bütün target değerlerim de observer observe özelliğini ekle,artık bunlar observe edilmiş;kont edilmiş
+// olacaklar observer tarafından

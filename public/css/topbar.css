@@ -96,10 +96,36 @@
 }
 
 .topbar .left i{
-    font-size: 1.3rem;
+    transition:all 0.3s;
+    transform: translateX(-20px);
+    opacity: 0;
 }
 
+.topbar .wrapper.active .left i{
+    transition:all 0.3s;
+    transform: translateX(0px);
+    opacity: 1;
+}
 
+.topbar .wrapper.active .left i:nth-child(2){
+    transition-duration: 0.5s;
+}
+.topbar .wrapper.active .left i:nth-child(3){
+    transition-duration: 0.8s;
+}
+.topbar .wrapper.active .left i:nth-child(4){
+    transition-duration: 1.2s;
+}
+
+.topbar .center, .topbar .right{
+    transform: translateX(-10px) translateX(-10px);
+    transition: all 0.5s;
+    opacity: 0;
+}
+.topbar .wrapper.wrapper.active .center, .topbar .wrapper.active .right{
+    transform: translateX(0px) translateY(0px);
+    opacity: 1;
+}
 
 
 

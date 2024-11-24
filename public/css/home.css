@@ -1,0 +1,11 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.home .wrapper{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+}

@@ -1,5 +1,56 @@
-.posts{
+.posts {
     flex: 9;
-    height: 30px;
-    background-color: orange;
+    margin-bottom: 30px;
+
+}
+
+.posts .post {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.posts h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.posts img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.posts p {
+    padding: 5px;
+    font-family: 'Arvo', serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 24px;
+}
+/* 
+over-flow :hidden =Taşan kısımları saklar
+text-overflow:ellipsis =Yazının taşan kısmlarını sonuna 3 nokta ekle
+display:-webkit-box =
+-webkit-line-clamp: 4 =Kaçıncı satırdan sonra old.
+-webkit-box-orient: vertical =Hizalama değeri dikey
+! line-height: 24px; orjinelde 23px ;bir sıkıntı olursa tekrar bu noktada ona göre bakarsın.
+*/
+
+.posts .authorAndDate{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+
+}
+.posts .authorAndDate span:nth-child(1){
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+.posts .authorAndDate span:nth-child(2){
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 700;
 }

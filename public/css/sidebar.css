@@ -1,5 +1,21 @@
-.sidebar{
+.sidebar {
     flex: 3;
-    height: 30px;
-    background-color: plum;
+    padding: 0 20px;
 }
+
+.sidebar .area {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.sidebar h3 {
+    width: 100%;
+    background-color: plum;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+/* İçine bir tane daha element oluşrturmada kaldık.(27:55) */

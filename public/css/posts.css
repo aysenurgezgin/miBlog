@@ -13,16 +13,7 @@
     padding: 15px;
     margin-bottom: 30px;
 }
-/* Burada responsive bir özellik kullandık; */
-@media(max-width:1100px){
-    .posts .post {
-        width: 100%;
-        border: 1px solid rgb(0, 0, 0, 0.3);
-        border-radius: 10px;
-        padding: 15px;
-        margin-bottom: 30px;
-    }
-}
+
 
 .posts h1 {
     font-family: 'Pacifico', cursive;
@@ -68,4 +59,27 @@ display:-webkit-box =
 .posts .authorAndDate span:nth-child(2){
     font-family: 'Ubuntu Mono', monospace;
     font-weight: 700;
+}
+/* Scroll animation */
+.posts .post {
+    transform: translateX(-20px);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.posts .post:nth-child(2n) {
+    transition: all 0.8s;
+}
+.posts .post.active {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+/* Burada responsive bir özellik kullandık;(Responsive Area) */
+@media(max-width:1100px){
+    .posts .post {
+        width: 100%;
+    }
+    .posts .post:nth-child(2n) {
+        transition: all 0.5s;
+    }
 }

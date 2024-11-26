@@ -7,6 +7,7 @@
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -48,6 +49,26 @@
     font-family: 'Arvo', serif;
     background-color: rgba(0, 0, 0, 0.03);
     padding: 2px;
-    border-radius:3px ;
+    border-radius: 3px;
     cursor: pointer;
+}
+
+.sidebar a {
+    font-family: 'Josefin Sans', sans-serif;
+    display: block;
+    padding: 3px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.sidebar a:nth-child(2n + 1) {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+/* Scroll animation */
+
+.sidebar .area {
+    opacity: 0;
+    transition: all 0.5s;
+}
+.sidebar .area.active {
+    opacity: 1;
 }

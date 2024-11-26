@@ -12,7 +12,6 @@
 
 .sidebar h3 {
     width: 100%;
-    background-color: plum;
     margin-bottom: 10px;
     font-family: 'Pacifico', cursive;
     display: flex;
@@ -21,6 +20,19 @@
 }
 .sidebar h3::after{
     content: '';
-    w
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
 }
 /* Content değeri boş vermen Zorunlu;Ekranda bu deper görünmez yoksa. */
+
+.sidebar img{
+    padding:5px;
+    border-radius:15px;
+}
+.sidebar .categories{
+    background-color: orange;
+    width: 100%;
+}

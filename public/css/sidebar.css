@@ -9,6 +9,7 @@
     border-radius: 10px;
 }
 
+
 .sidebar h3 {
     width: 100%;
     background-color: plum;
@@ -18,4 +19,8 @@
     justify-content: center;
     position: relative;
 }
-/* İçine bir tane daha element oluşrturmada kaldık.(27:55) */
+.sidebar h3::after{
+    content: '';
+    w
+}
+/* Content değeri boş vermen Zorunlu;Ekranda bu deper görünmez yoksa. */

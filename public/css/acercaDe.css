@@ -57,3 +57,43 @@ Bunun yerine .acercaDe nini içinde ki .wrapper elementine gidip ayarlama yapıc
 /* Scale:Boyutlandırmak */
 
 /* Scroll Animation */
+/* *Animasyonumuzu yazabilmemiz için; 
+acercaDe.html sayfası içerisinde ki herbir wrapper'a bizim target(hedef)değerini vermemiz gerek;Başarılı bir şekilde
+Active değerini alabilsinler.Sonra bu kısma geri dön.Wrapper elementinin başlangıç durumunu alalım ve gerkli işlemleri yapalım;
+*/
+
+.acercaDe .wrapper{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.acercaDe .wrapper.active{
+    opacity: 1;
+}
+/* Text'lere de animasyon eklemek;Başlangıç durumun;*/
+.acercaDe .wrapper .text{
+    transform: translateX(-20px);
+    transition: all 0.5s;
+}
+
+.acercaDe .wrapper:nth-child(2n) .text{
+    transform: translateX(20px);
+}
+/* Wrapper elemnenti aktif olunca nereye gelsin?; */
+.acercaDe .wrapper.active .text{
+    transform: translateX(0px);
+}
+
+/* Aynı işlemi resim elementi için yapalım;tabi ters gelicek 2 katı meselesi unutma! */
+.acercaDe .wrapper .photo{
+    transform: translateX(20px);
+    transition: all 0.5s;
+}
+
+.acercaDe .wrapper:nth-child(2n) .photo{
+    transform: translateX(-20px);
+}
+
+.acercaDe .wrapper.active .photo{
+    transform: translateX(0px);
+}
+

@@ -8,3 +8,9 @@
 /* cal ;görünen alanın tamamını doldur(mobil ekran içinde olabilir)50px'ını çıkar;yukarıda topbar var onu çıkar yoksa scroll ç
 çubuğu oluşurdu.
  */
+ .logReg form{
+    position: absolute;
+    width:400px ;
+    left: calc((100% - 400px) /2);
+    top: 10px;
+ }

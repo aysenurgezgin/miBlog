@@ -11,6 +11,12 @@
  .logReg form{
     position: absolute;
     width:400px ;
-    left: calc((100% - 400px) /2);
-    top: 10px;
+    left: calc((100% - 400px) / 2);
+    /* Sayfanın tamamından 400px alanı çıkart;2'ye böl.400px= logReg tamamı .Bu yokmuş gibi davran sonra 2ye böl;leften alan olu.oldu
+ 2'ye böldüğümüz içinde eşit boşluk vermiş olduk.   
+    */
+    top: 100px;
+    background-color:rgba(0, 0, 0, 0.6) ;
+    padding: 20px;
  }
+ 

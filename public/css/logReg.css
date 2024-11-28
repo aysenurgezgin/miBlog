@@ -1,0 +1,10 @@
+.logReg{
+    position: relative;
+}
+.logReg img{
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+/* cal ;görünen alanın tamamını doldur(mobil ekran içinde olabilir)50px'ını çıkar;yukarıda topbar var onu çıkar yoksa scroll ç
+çubuğu oluşurdu.
+ */

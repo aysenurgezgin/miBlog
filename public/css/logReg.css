@@ -42,9 +42,9 @@
 
 .logReg form .formGroup span {
    position: absolute;
-   left: 20px;
+   left: 10px;
    top: 10px;
    color: white;
    font-family: 'Josefin Sans', sans-serif;
-
+   padding: 3px 5px;
 }

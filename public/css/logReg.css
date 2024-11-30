@@ -1,39 +1,50 @@
-.logReg{
-    position: relative;
+.logReg {
+   position: relative;
 }
-.logReg img{
-    width: 100%;
-    height: calc(100vh - 50px);
+
+.logReg img {
+   width: 100%;
+   height: calc(100vh - 50px);
 }
+
 /* cal ;görünen alanın tamamını doldur(mobil ekran içinde olabilir)50px'ını çıkar;yukarıda topbar var onu çıkar yoksa scroll ç
 çubuğu oluşurdu.
  */
- .logReg form{
-    position: absolute;
-    width:400px ;
-    left: calc((100% - 400px) / 2);
-    /* Sayfanın tamamından 400px alanı çıkart;2'ye böl.400px= logReg tamamı .Bu yokmuş gibi davran sonra 2ye böl;leften alan olu.oldu
+.logReg form {
+   position: absolute;
+   width: 350px;
+   left: calc((100% - 350px) / 2);
+   /* Sayfanın tamamından 400px alanı çıkart;2'ye böl.400px= logReg tamamı .Bu yokmuş gibi davran sonra 2ye böl;leften alan olu.oldu
  2'ye böldüğümüz içinde eşit boşluk vermiş olduk.   
     */
-    top: 100px;
-    background-color:rgba(0, 0, 0, 0.6) ;
-    padding: 20px;
- }
+   top: 100px;
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+   border-radius: 00px;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3), 0px 0px 10px rgba(0, 0, 0, 0.5),
+      0px 0px 15px rgba(0, 0, 0, 0.5);
+}
 
- .logReg form .formGroup{
-    margin-bottom: 30px;
-    position: relative;
- }
- .logReg form .formGroup input{
-    width: 100%;
-    height: 40px;
-    background: rgba(0, 0, 0, 0.3);
-    border: none;
-    outline:none ;
-    border-radius: 10px;
- }
- .logReg form .formGroup span{
-    position: absolute;
-    left: 20px;
-    top: 10px;
- }
+.logReg form .formGroup {
+   margin-bottom: 30px;
+   position: relative;
+}
+
+.logReg form .formGroup input {
+   width: 100%;
+   height: 40px;
+   background: rgba(0, 0, 0, 0.3);
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   color: white;
+}
+
+.logReg form .formGroup span {
+   position: absolute;
+   left: 20px;
+   top: 10px;
+   color: white;
+   font-family: 'Josefin Sans', sans-serif;
+
+}

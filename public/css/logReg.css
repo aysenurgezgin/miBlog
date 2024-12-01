@@ -54,5 +54,6 @@ span elementini inputun üstüne alınca;Tilda Çalışmazdı inputtan sonra spa
 focus old. inputtan sonra gelen span elementini seç demiş olduk.
 */
 .logReg form .formGroup input:focus ~ span{
-   
+   top: -5px;
+   left: 20px;
 }

@@ -47,6 +47,7 @@
    color: white;
    font-family: 'Josefin Sans', sans-serif;
    padding: 3px 5px;
+   transition: all 0.3s;
 }
 /* ?tilda işareti ile (altgr + ü)span elementini seçmiş olmak için;
 Kısaca Tilde;Biz registro.html  içinde input elementini span elementinin bir üstüne;bir altına koysaydım=
@@ -54,6 +55,9 @@ span elementini inputun üstüne alınca;Tilda Çalışmazdı inputtan sonra spa
 focus old. inputtan sonra gelen span elementini seç demiş olduk.
 */
 .logReg form .formGroup input:focus ~ span{
-   top: -5px;
+   top: -10px;
    left: 20px;
+   font-size: 0.9rem;
+  /*  normalde 1 rem olarak gelir */
+   background-color:rgba(0, 0, 0, 0.5) ;
 }

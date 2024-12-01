@@ -58,6 +58,6 @@ focus old. inputtan sonra gelen span elementini seç demiş olduk.
    top: -10px;
    left: 20px;
    font-size: 0.9rem;
-  /*  normalde 1 rem olarak gelir */
+  /*  normalde(default) 1 rem olarak gelir */
    background-color:rgba(0, 0, 0, 0.5) ;
 }

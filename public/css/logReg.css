@@ -5,6 +5,7 @@
 .logReg img {
    width: 100%;
    height: calc(100vh - 50px);
+   object-fit: cover;
 }
 
 /* cal ;görünen alanın tamamını doldur(mobil ekran içinde olabilir)50px'ını çıkar;yukarıda topbar var onu çıkar yoksa scroll ç
@@ -84,6 +85,8 @@ koymam gerek    */
    font-family: 'Josefin Sans', sans-serif;
    transition: all 0.3s;
    border-bottom: 1px solid transparent;
+   align-self: flex-end;
+   padding-bottom: 3px;
 
 }
 
@@ -92,6 +95,18 @@ koymam gerek    */
 .logReg form .btnGroup a:hover{
     border-color: white;
 }
+
+.logReg form .btnGroup button{
+   font-size: 1rem;
+   color: white;
+   outline: none;
+   cursor: pointer;
+   padding: 5px 10px;
+   background-color: rgba(113, 113, 113, 0.6);
+   border-radius: 5px;
+   border: none;
+}
+
 
 
 

@@ -51,21 +51,53 @@
    transition: all 0.3s;
    border-radius: 3px;
 }
+
 /* ?tilda işareti ile (altgr + ü)span elementini seçmiş olmak için;
 Kısaca Tilde;Biz registro.html  içinde input elementini span elementinin bir üstüne;bir altına koysaydım=
 span elementini inputun üstüne alınca;Tilda Çalışmazdı inputtan sonra span gelmeli.Tildaya input elementi 
 focus old. inputtan sonra gelen span elementini seç demiş olduk.
 */
-.logReg form .formGroup input:focus ~ span,.logReg form .formGroup input:valid ~ span{
+.logReg form .formGroup input:focus~span,
+.logReg form .formGroup input:valid~span {
    top: -10px;
    left: 20px;
    font-size: 0.8rem;
-  /*  normalde(default) 1 rem olarak gelir */
-   background-color:rgba(0, 0, 0, 0.5) ;
+   /*  normalde(default) 1 rem olarak gelir */
+   background-color: rgba(0, 0, 0, 0.5);
 }
+
 /* element focus olduğunda(odaklandığında) ve ayrıca valid old.=doğrulandığında;htmlin kendi özelliğidir bu
 input içine required özelliğini vermemiz lazım,bu animasyonun çalışabilmesi için,tekrardan tilda işaretini
 koymam gerek    */
 
 
 /* alt tarftaki btn-group içerisinde ki alanların müdahelesi */
+.logReg form .btnGroup {
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.logReg form .btnGroup a {
+   color: white;
+   font-family: 'Josefin Sans', sans-serif;
+   transition: all 0.3s;
+   border-bottom: 1px solid transparent;
+
+}
+
+/* Border'ı oluşturmak başka rengini değiştirmek başka;border-color yeterli olur=)*/
+
+.logReg form .btnGroup a:hover{
+    border-color: white;
+}
+
+
+
+
+
+
+/* !hizalama için;
+   Shift + Alt + F
+*/

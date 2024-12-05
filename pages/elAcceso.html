@@ -42,22 +42,32 @@
         </div>
     </div>
 
-<!-- Sayfamızın genelkısmının temsili -->
-<div class="add">
-<form>
-    <div class="text">
-        <input type="text" placeholder="Tu Título *" required>
-        <textarea></textarea>
+    <!-- Sayfamızın genelkısmının temsili -->
+    <div class="add">
+        <form>
+            <div class="text">
+                <input type="text" placeholder="Tu Título *" required>
+                <textarea placeholder="Tu Contenido *" required></textarea>
+                <input type="text" placeholder="Su Nombre *" required>
+            </div>
+
+            <div class="button">
+                <button>
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <label for="file">
+                    <i class="fa-solid fa-image"></i></label>
+                <input type="file" id="file" style="display: none;">
+            </div>
+        </form>
     </div>
-</form>
-</div>
 
 
 
 
 
-<script src="../public/js/search.js"></script>
-<script src="../public/js/scroll.js"></script>
+    <script src="../public/js/search.js"></script>
+    <script src="../public/js/scroll.js"></script>
 
 
 </body>
@@ -65,5 +75,10 @@
 </html>
 
 <!-- ! textarea elementi şimdilik içerisine name gibi değerleri barıdırmayacak;name değeri ile sunucuya istek atmıycaz şimdilik sadece tasarım-->
+<!-- Label elementine tıkladığımızda bir altında bulunan ve id değeri file olan bu elemente tıklmış gibi olacak;
+<input type="file" id="file"> ispat içinde sayfada kapamak için;
+style değerin display none gelicek.ve font awesome dan ikon ekliycem onun yerine;label içine koy
+-->
+
 
 <!-- ver cdn =)6.5.1 -->

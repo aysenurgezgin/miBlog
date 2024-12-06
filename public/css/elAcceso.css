@@ -6,3 +6,16 @@
    align-items: center;
 }
 /* Calc kullanma sebebi ;scroll çubuğunun hareketini önlemek */
+
+.add form{
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    height: 400px;
+    width: 90%;
+    max-width: 800px;
+    padding: 10px;
+}
+.add form .text{
+    display: flex;
+    flex-direction: column;
+}

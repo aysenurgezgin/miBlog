@@ -11,10 +11,10 @@
 .add form {
     background-color: rgba(0, 0, 0, 0.1);
     display: flex;
-    height: 400px;
+    height: 450px;
     width: 90%;
-    max-width: 800px;
-    padding: 10px;
+    max-width: 1000px;
+    padding: 20px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
@@ -40,7 +40,8 @@
     font-size: 1.1rem;
 
 }
-/* 1.1 rem: 1 remin yüzde 10 büyütülmüş hali */
+/* 1.1 rem: 1 remin yüzde 10 büyütülmüş hali 
+1rem :16px*/
 .add form .text input:first-child {
     font-family: 'Pacifico', cursive;
 }
@@ -54,10 +55,29 @@
     height: 180px;
     padding: 10px 0px 0px 10px;
     font-family: 'Arvo', serif;
+    font-size: 1rem;
 }
 
 .add form .button {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     width: 10%;
+}
+.add form .button button, .add form .button label{
+    width: 40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.add form .button label{
+    background-color: rgba(255, 231, 159);
 }

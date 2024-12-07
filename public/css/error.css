@@ -1,6 +1,16 @@
 .error{
     width: 100%;
     height: calc(100vh - 50px);
-    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 /* 100vh:görünen alanın tamamı fakat burada bizim topbar yapımız vardı onu çıkarmalıyız;calc işlemiyle. */
+.error i{
+position: absolute;
+font-size: 10rem;
+}
+/* icon elementi pzisyonun absolute olsun demek için hizalama işini error elementine göre yapıcaz(body elementine göre değil)
+.errro'da position relative(akraba)yaptık
+*/

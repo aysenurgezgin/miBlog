@@ -1,0 +1,6 @@
+.error{
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: orange;
+}
+/* 100vh:görünen alanın tamamı fakat burada bizim topbar yapımız vardı onu çıkarmalıyız;calc işlemiyle. */

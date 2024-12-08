@@ -10,6 +10,8 @@
 .error i{
 position: absolute;
 font-size: 10rem;
+z-index: 5;
+color: rgba(0, 0, 0, 0.3);
 }
 /* icon elementi pzisyonun absolute olsun demek için hizalama işini error elementine göre yapıcaz(body elementine göre değil)
 .errro'da position relative(akraba)yaptık

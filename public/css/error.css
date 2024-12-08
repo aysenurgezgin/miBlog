@@ -1,4 +1,4 @@
-.error{
+.error {
     width: 100%;
     height: calc(100vh - 50px);
     display: flex;
@@ -6,20 +6,20 @@
     align-items: center;
     position: relative;
 }
-/* 100vh:görünen alanın tamamı fakat burada bizim topbar yapımız vardı onu çıkarmalıyız;calc işlemiyle. */
-.error i{
-position: absolute;
-font-size: 20rem;
-z-index: 5;
-color: rgba(255, 87, 87, 0.3);
-}
-/* icon elementi pzisyonun absolute olsun demek için hizalama işini error elementine göre yapıcaz(body elementine göre değil)
-.errro'da position relative(akraba)yaptık
-*/
 
-.error span{
+/* 100vh:görünen alanın tamamı fakat burada bizim topbar yapımız vardı onu çıkarmalıyız;calc işlemiyle. */
+.error i {
     position: absolute;
     font-size: 20rem;
     z-index: 5;
     color: rgba(255, 87, 87, 0.3);
-    }
+}
+
+/* icon elementi pzisyonun absolute olsun demek için hizalama işini error elementine göre yapıcaz(body elementine göre değil)
+.errro'da position relative(akraba)yaptık
+*/
+
+.error span {
+    font-size: 4rem;
+    z-index: 10;
+}

@@ -25,4 +25,5 @@
 }
 /* rem ölçü birim;dinamik değerdir(sayfa içinde bir kere tanımladıktan sonra öyle kalmaz;piksel gibi değil)
 1 rem herzaman 16px değildir;değişkendir */
-/* değişken olduğunun ispatı ; */
+/* değişken olduğunun ispatı ;
+default.css te proje sonun da px ile istenilen kısımları ayarlamak daha basit olur */

@@ -22,7 +22,10 @@
 .error span {
     font-size: 5rem;
     z-index: 10;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:700 ;
 }
+
 /* rem ölçü birim;dinamik değerdir(sayfa içinde bir kere tanımladıktan sonra öyle kalmaz;piksel gibi değil)
 1 rem herzaman 16px değildir;değişkendir */
 /* değişken olduğunun ispatı ;

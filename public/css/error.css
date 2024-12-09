@@ -26,4 +26,9 @@
 /* rem ölçü birim;dinamik değerdir(sayfa içinde bir kere tanımladıktan sonra öyle kalmaz;piksel gibi değil)
 1 rem herzaman 16px değildir;değişkendir */
 /* değişken olduğunun ispatı ;
-default.css te proje sonun da px ile istenilen kısımları ayarlamak daha basit olur */
+default.css te proje sonun da px ile istenilen kısımları ayarlamak daha basit olur
+
+1 rem :16 px
+1.1 rem: 16px + ((16px *10) / 100) =17.6  ;yüzde 10 büyütmüş oluruz.
+1.5rem: 16px + ((16px *50) / 100) =24px    ;yani yarısı 8 dir toplamda 24 px olmuş olur
+*/

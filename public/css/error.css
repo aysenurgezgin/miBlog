@@ -44,4 +44,11 @@ web sitesini interneete paylaşmak;
 ücretsiz hosting ve domain hizmeti için =render.com üzerinden proje yayımlanabilir:
 1)ilk olarak proje github
 2)render.com sayfasından github gir
+3)new butonu ile açılan sekmeden sitatic değerini seç
+4)github üzerinde paylaştığımız içeriği connect diyerek render.com ile bağlıyoruz
+5)Açılan sayfa içerisinde ki name alanına projemizin ve Domain değerimizn adını giriyoruz
+6)publish directory alanına da nokta slaş(./)değerlerini girdikten sonra 
+7)"creta static site" isimli butona tıklıyoruz
+8)açılan yeni sayfa içerinde your site is "live" yazısını görüyoruz
+9)yukarıdaki linke tıklayarak sayfamıza gidiyoruz
 */

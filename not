@@ -3,5 +3,5 @@ kayıt olma, giriş yapma, veri ekleme, silme , güncellema işlemleri yaılacak
 Şuan da proje static .
 Static ve dinamik 
 Sayfanın içinde ki bir kodu değiştirmek için sunucuya yüklediğimiz dosyayı kopmle değiştirmemiz gerkiyor
-veri tababına uzaktan bşey ekleyip çıkaramıyoruz.(Giriş yapı birşey ekleme vs yok);
-Giriş yaptığımız içerisinde ki yazıları giriş yaptıktan sonra eklediğimiz 
+veri tababına uzaktan bşey ekleyip çıkaramıyoruz.(Giriş yapı birşey ekleme vs yok)
+Giriş yaptığımız içerisinde ki yazıları giriş yaptıktan sonra eklediğimiz sayfalarsa dinamik sayfadır

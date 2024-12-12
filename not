@@ -5,3 +5,5 @@ Static ve dinamik
 Sayfanın içinde ki bir kodu değiştirmek için sunucuya yüklediğimiz dosyayı kopmle değiştirmemiz gerkiyor
 veri tababına uzaktan bşey ekleyip çıkaramıyoruz.(Giriş yapı birşey ekleme vs yok)
 Giriş yaptığımız içerisinde ki yazıları giriş yaptıktan sonra eklediğimiz sayfalarsa dinamik sayfadır
+Bir yazı ekliyoruz o veri tababına kaydediliyor daha sonra o kaydedilen yazı ana sayfaya tekrardan  render 
+edilip getiriliyor. 

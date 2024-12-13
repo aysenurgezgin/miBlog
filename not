@@ -12,5 +12,20 @@ edilip getiriliyor.
 Bu projede NodeJS kullanıcaz(PHP, Asp.Net, C++ dilleriyle yapmış olduğumuz projenin web servis uygulaması yazılır)
 NodeJS Backend uygulamasıdır
 Sunucu* istemci tarafından atılan istekleri yakalayan isteğin doğrultusunda işlemler gerçekleştiren(authorization,
-authentication,crud .etc)güçlü bilgisayralardır.
-authorization
+authentication,crud .etc(ve benzeri))güçlü bilgisayralardır.
+
+xx authorization *yetki,dinamik olarak yazı eklemek istediğimiz zaman giriş yapıyoruz giriş yaptıktan sonra ilgili alana
+yazı ekliyoruz.Giriş yapmadan yazı eklanabilir mi?   Hayır eklenemez!İsteyen herkezkin yazı eklemesine izin vermiyoruz
+user (-)    ~   Writer ve Admin (+)
+Kimin yazı yazmasına izin veriyoruz?Gİriş yapmış kişilere yazı yazmasına olanak sağlıyoruz
+xx authentication* Giriş olma ve kayıt yaptırmalarımızı temsil etmektedir.
+xx Crud .etc *Bizim veri tabanına yazı eklemek, silmek , güncellemek gibi işlemleri yaptığımız kısmı temsil eder.
+
+Güçlü bilgisayralar.. Aslında bizim şuan da kullandığımz normal bilgisayarların bire bir aynısıdır.Hatta eski bilgisayarlarımızı
+eski laptopları bir sunucuya dönüştürebiliriz fakat genel olarak bu sunucular güçlü bilgisayarlardır.Sunucuya dosyalarımızı
+yüklediğimiz zaman Hostingi  satın alıyoruz 
+Hosting..Bir çekirdeği var iki remi var (2 GB), 10GBlık belleği var bu hostingi temsil ediyor.
+WPS serverler(Wifi korumalı Kurulum)..2 çekirdek 4 rem (4GB)
+WDS(Wireless Distribution System)..Hosting ve WPS den farklı olarak bölünmüş bir alan olarak geliyor(daha güvenli)
+Bayi Hosting(Bayi Sunucular)..O bilgisayarın tamamını satın alınan kısım
+

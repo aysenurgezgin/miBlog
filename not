@@ -9,4 +9,8 @@ Giriş yaptığımız içerisinde ki yazıları giriş yaptıktan sonra eklediğ
 Bir yazı ekliyoruz o veri tababına kaydediliyor daha sonra o kaydedilen yazı ana sayfaya tekrardan  render 
 edilip getiriliyor. 
 
-Bu projede NodeJS kullanıcaz
+Bu projede NodeJS kullanıcaz(PHP, Asp.Net, C++ dilleriyle yapmış olduğumuz projenin web servis uygulaması yazılır)
+NodeJS Backend uygulamasıdır
+Sunucu* istemci tarafından atılan istekleri yakalayan isteğin doğrultusunda işlemler gerçekleştiren(authorization,
+authentication,crud .etc)güçlü bilgisayralardır.
+authorization

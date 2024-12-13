@@ -8,3 +8,5 @@ veri tababına uzaktan bşey ekleyip çıkaramıyoruz.(Giriş yapı birşey ekle
 Giriş yaptığımız içerisinde ki yazıları giriş yaptıktan sonra eklediğimiz sayfalarsa dinamik sayfadır
 Bir yazı ekliyoruz o veri tababına kaydediliyor daha sonra o kaydedilen yazı ana sayfaya tekrardan  render 
 edilip getiriliyor. 
+
+Bu projede NodeJS kullanıcaz

@@ -29,3 +29,12 @@ WPS serverler(Wifi korumalı Kurulum)..2 çekirdek 4 rem (4GB)
 WDS(Wireless Distribution System)..Hosting ve WPS den farklı olarak bölünmüş bir alan olarak geliyor(daha güvenli)
 Bayi Hosting(Bayi Sunucular)..O bilgisayarın tamamını satın alınan kısım
 
+?İşlemin sıralama şekli ..Web uygulaması yaptık,hostinge yükledik(WPS ede yükleyebiliriz),zamanla o hosting küçük geldiği zaman 
+(Günlük binlerce kişi sitemize girdi diyelim),artık satın aldığımız hostingin özellikleri yetmediği zaman (1 çekirdek yetersiz geliyor),
+WPS e geçiyoruz(DAha fazla para ödeyip),ordan Wdse sonra bayi hostingin parasını verip satın alma işlemi gerçekleşir.
+Bu olayların gerçekleştiği kısma ..SUNUCU denir ve yetkilendirme işlemlerini yapabildiğimiz teknolojiyede..SUNUCU TARAFINDA Kİ 
+Yazılımlar aracılığıyla yapıyoruz.(NodeJS olur  ASp.NET olur fark etmez)Burada ki giiriş kontrollerini Sunucu üzerinde ki teknoloji
+aracılığıyla yapıyoruz
+
+?* Sunucu -İstemci
+

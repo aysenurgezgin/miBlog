@@ -39,4 +39,6 @@ aracılığıyla yapıyoruz
 ?* Sunucu -İstemci
 Sunucu *Normal bir bilgisayarlardır,içine NodeJs ile bir yazılım yazınca orda yetkilendirme vb şeyleri sunucu tabanlı bir yazılım ile yapılır.
 Sunucu tabanlı bir yazılım var,sunucu var artık uygulamayı internete açmış olduk.
-İstemci *
+İstemci *(insanlar)normal kullanıcılar bir request(istekte bulunmak)örn www.google.com a bir istek atılınca Internet üzerinden bir arama yapılıyor
+attığımız istek ilk olarak Internet üzerinden Domain Name Server lara gidiyor www.google.com un aslında hangi ip adresine denk geldiğini name serverlar 
+tarafından tespit ediliyor ve ilgili sunucunun ip adresine istekte bulunuyor(ip adresi bu olan kullanıcı sana istek atıyor )

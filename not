@@ -46,3 +46,5 @@ sunucu da response olarak bir geri bir cevap döndürüyor, cevabı alıyor ilgi
 arasında veri alış verişi yapmış oluyoruz.tarayıcıyı açtık www.google.com yaptığımızda karşımızı çıkan HTML sayfası geliyorsa o bize sunucunun verdiği 
 cevabı temsil ediyor)Sunucuya istek atıyoruz sunucu dan cevap alıyoruz aslında tümüyle NodeJS te bunu kullanıcaz,istek atıcaz istek doğrultusunda işlem
 yapıp geriye bir cevap dönrürücez
+
+NodeJS

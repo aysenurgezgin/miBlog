@@ -45,4 +45,4 @@ tarafından tespit ediliyor ve ilgili sunucunun ip adresine istekte bulunuyor(ip
 sunucu da response olarak bir geri bir cevap döndürüyor, cevabı alıyor ilgili isteği atan kişiye tekrardan ulaştırıyor ve böylelikle sunucu istemci 
 arasında veri alış verişi yapmış oluyoruz.tarayıcıyı açtık www.google.com yaptığımızda karşımızı çıkan HTML sayfası geliyorsa o bize sunucunun verdiği 
 cevabı temsil ediyor)Sunucuya istek atıyoruz sunucu dan cevap alıyoruz aslında tümüyle NodeJS te bunu kullanıcaz,istek atıcaz istek doğrultusunda işlem
-yapıp 
+yapıp geriye bir cevap dönrürücez

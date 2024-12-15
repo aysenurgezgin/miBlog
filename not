@@ -37,5 +37,6 @@ Yazılımlar aracılığıyla yapıyoruz.(NodeJS olur  ASp.NET olur fark etmez)B
 aracılığıyla yapıyoruz
 
 ?* Sunucu -İstemci
-Sunucu Normal bir bilgisayarlardır,içine NodeJs ile bir yazılım yazınca orda yetkilendirme vb şeyleri sunucu tabanlı bir yazılım ile yapılır.
-
+Sunucu *Normal bir bilgisayarlardır,içine NodeJs ile bir yazılım yazınca orda yetkilendirme vb şeyleri sunucu tabanlı bir yazılım ile yapılır.
+Sunucu tabanlı bir yazılım var,sunucu var artık uygulamayı internete açmış olduk.
+İstemci *

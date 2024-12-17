@@ -53,3 +53,5 @@ V8 teknolojisi: javaScript kodlarını makinanın anladığı dile çeviren bir 
 Ryan Dahl C++ dili ile V8 engine yapısının JavaScript kodlarını algılamasını sağlamıştır
 V8 teknolojisi çok hızlı çalışır.Bu nedenle Node.js te aynı derce de hızlı çalışmaktadır.
 Node.js yapısını kullanan firmalar(Twitch,Discord,Visual Studio Code,Apple,Google,Pinterest,Paypal vb.)
+
+Bu proje de Nodejs ile veri tabanı olarakta: Mongo db veri tabanı kullanıcaz

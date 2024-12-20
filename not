@@ -63,4 +63,4 @@ belki mongos paketi tümüyle kaldırılmış olabilir bu gibi durumlarla karş�
 olmamız gerekiyor ya da takip edilen yer örn 20.versiyonunu kullanıyorsa onun kurulumu yapılabilir.
 Kurulumda kurulacak olan paketlerin neler olduğu söyleniyor NodeJS ile birlikte  NodeJS in paket yöneticisi olan 
 Npm package manager da yükleniyor bu oldukça önemli:Node un paket yöneticisi olmadan biz dosya indirme işlemlerini yapamıyoruz.DEvamında
-kurulumda otomatik indirmeyi kapat(aktife kapat)next
+kurulumda otomatik indirmeyi kapat(aktife kapat)next install ile indirme işlemi başlanır.

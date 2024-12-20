@@ -65,3 +65,5 @@ Kurulumda kurulacak olan paketlerin neler olduğu söyleniyor NodeJS ile birlikt
 Npm package manager da yükleniyor bu oldukça önemli:Node un paket yöneticisi olmadan biz dosya indirme işlemlerini yapamıyoruz.DEvamında
 kurulumda otomatik indirmeyi kapat(aktife kapat)next install ile indirme işlemi başlanır.ver cmd :node -v ile tasdik edilebilir
 npm -v ile başarılı bir şekilde gerçekleştiğini öğrenebiliriz.şuan da npm in 10.7.0 versiyonunu kullanıyoruz 
+
+şimdi veri tabanının kurulum işlemi:

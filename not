@@ -57,3 +57,7 @@ Node.js yapısını kullanan firmalar(Twitch,Discord,Visual Studio Code,Apple,Go
 Bu proje de Nodejs ile veri tabanı olarakta: Mongo db veri tabanı kullanıcaz
 Bu projemizde node.js ile birlikte mongodb yi veritabanı olarak kullanacağız.
 ilk olarak Node.js kurulumu ve mongo db kurulumu gerçekleştirme işelmi yapılır.
+
+kod yazımında versiyon dikkate alınarak yazılmalı.mesela 30.veriyon. Veri tabanını bağlamak için kullandığımız  Connect komutunun belki farklı bir değiştirilmiş hali olabilir
+belki mongos paketi tümüyle kaldırılmış olabilir bu gibi durumlarla karşılaştığımız da eğer 30. versiyonunu kullanmamız gerekiyorsa ilgili paket hakkında daha fazla bilgi sahibi 
+olmamız gerekiyor ya da takip edilen yer örn 20.versiyonunu kullanıyorsa onun kurulumu yapılabilir.

@@ -56,3 +56,4 @@ Node.js yapısını kullanan firmalar(Twitch,Discord,Visual Studio Code,Apple,Go
 
 Bu proje de Nodejs ile veri tabanı olarakta: Mongo db veri tabanı kullanıcaz
 Bu projemizde node.js ile birlikte mongodb yi veritabanı olarak kullanacağız.
+ilk olarak Node.js kurulumu ve mongo db kurulumu gerçekleştirme işelmi yapılır.

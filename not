@@ -68,3 +68,5 @@ npm -v ile başarılı bir şekilde gerçekleştiğini öğrenebiliriz.şuan da 
 
 şimdi veri tabanının kurulum işlemi:
 default olrak en yeni sürüm tavsiye ediliyor,bağlantı kuralları değişimi olabilir denkliğine dikkat et
+kurulum aşaması devam ederken install MongoDB Compass ın kesinlikle işaretli olmasına dikkat et:normalde mongoDB terminalle yani kodlarla erişim sağlanıyor Compass sayesinde mongoDB
+yi artık sadece terminal aracı değil arayüz olarak(giriş yaptığın renkli renkli sayfaları olan bir aracı olarak kullanıyoruz)

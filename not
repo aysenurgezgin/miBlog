@@ -67,3 +67,4 @@ kurulumda otomatik indirmeyi kapat(aktife kapat)next install ile indirme işlemi
 npm -v ile başarılı bir şekilde gerçekleştiğini öğrenebiliriz.şuan da npm in 10.7.0 versiyonunu kullanıyoruz 
 
 şimdi veri tabanının kurulum işlemi:
+default olrak en yeni sürüm tavsiye ediliyor,bağlantı kuralları değişimi olabilir denkliğine dikkat et

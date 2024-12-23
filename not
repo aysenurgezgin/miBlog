@@ -71,3 +71,4 @@ default olrak en yeni sürüm tavsiye ediliyor,bağlantı kuralları değişimi 
 kurulum aşaması devam ederken install MongoDB Compass ın kesinlikle işaretli olmasına dikkat et:normalde mongoDB terminalle yani kodlarla erişim sağlanıyor Compass sayesinde mongoDB
 yi artık sadece terminal aracı değil arayüz olarak(giriş yaptığın renkli renkli sayfaları olan bir aracı olarak kullanıyoruz)
 ve indirmede kurulum işlemine devam ediyoruz,sonund da bir compass sayfası açılması gerekiyor:kurulum başarılı şekilde tamalandı.
+Şimdi NOde Js ve mongo db ile 

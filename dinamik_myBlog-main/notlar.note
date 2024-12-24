@@ -3,3 +3,6 @@ Giriş yapamıyorduk,veri ekleme olmuyordu,silemiyorduk..
 
 2.nodeJs nasıl çalıştırılıyor;
 terminale ihtiyaç var(entera basınca açılabilmesi için;ayarlar,keyboard shortcuts,terminal,create new terminal,sağ tık add keybinding,istenilen bişeye atanabiliyor)ya daa ,kısa yol:ctrl+shift+"
+
+3.nodeJsin tamamını terminal üzerinden kullanıcaz.
+4.NodeJS e girişin ilk komutu nedir;npm paketlerini init etmek gerekiyor.Pacet Json adı verilen bir dosya 

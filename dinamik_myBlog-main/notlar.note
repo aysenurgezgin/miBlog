@@ -2,7 +2,7 @@
 Giriş yapamıyorduk,veri ekleme olmuyordu,silemiyorduk..
 
 2.nodeJs nasıl çalıştırılıyor;
-terminale ihtiyaç var(entera basınca açılabilmesi için;ayarlar,keyboard shortcuts,terminal,create new terminal,sağ tık add keybinding,istenilen bişeye atanabiliyor)ya daa ,kısa yol:ctrl+shift+"
+terminale ihtiyaç var(entera basınca açılabilmesi için;ayarlar,keyboard shortcuts,terminal,create new terminal,sağ tık add keybinding,istenilen bişeye atanabiliyor)ya da,kısa yol:ctrl+shift+"
 
 3.nodeJsin tamamını terminal üzerinden kullanıcaz.
 4.NodeJS e girişin ilk komutu nedir;npm paketlerini init(başlangıç) etmek gerekiyor.package Json adı verilen bir dosya var bu paketi indirmemiz gerekiyor.
@@ -12,3 +12,5 @@ npm init -y
 bunu indirddiğimde içinde ki ayzıların bulunduğubir tane package json dosyası oluşturuyor.
 bu komutla birlikte projemize başarılı bir şekilde çekmiş olduk.
 5.İçinde ki eğerleri inceleyecek olursak;
+name değeri:Projemizin adını temsil eder(-y verdiğimiz için tüm sorulara doğrudan evet demiş olduk.)
+versiyon,açıklaması,main=ana(başlangıç)dosyasının index.js olduğunu belirtiyor,sonra çalıştırılabilir script dosyaları var, anahtar kelimeler,yazarın ismi,lisansımız mevcut.

@@ -7,3 +7,4 @@ terminale ihtiyaç var(entera basınca açılabilmesi için;ayarlar,keyboard sho
 3.nodeJsin tamamını terminal üzerinden kullanıcaz.
 4.NodeJS e girişin ilk komutu nedir;npm paketlerini init(başlangıç) etmek gerekiyor.package Json adı verilen bir dosya var bu paketi indirmemiz gerekiyor.
 Nasıl indiriliyor?
+npm init -y

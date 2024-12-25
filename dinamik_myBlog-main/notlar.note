@@ -10,3 +10,5 @@ Nasıl indiriliyor?
 npm init -y
 -y komutunun anlamı:yes anlamına geliyor
 bunu indirddiğimde içinde ki ayzıların bulunduğubir tane package json dosyası oluşturuyor.
+bu komutla birlikte projemize başarılı bir şekilde çekmiş olduk.
+5.İçinde ki eğerleri inceleyecek olursak;

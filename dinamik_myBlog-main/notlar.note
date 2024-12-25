@@ -8,3 +8,5 @@ terminale ihtiyaç var(entera basınca açılabilmesi için;ayarlar,keyboard sho
 4.NodeJS e girişin ilk komutu nedir;npm paketlerini init(başlangıç) etmek gerekiyor.package Json adı verilen bir dosya var bu paketi indirmemiz gerekiyor.
 Nasıl indiriliyor?
 npm init -y
+-y komutunun anlamı:yes anlamına geliyor
+bunu indirddiğimde içinde ki ayzıların bulunduğubir tane package json dosyası oluşturuyor.

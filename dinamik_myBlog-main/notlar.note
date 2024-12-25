@@ -14,3 +14,6 @@ bu komutla birlikte projemize başarılı bir şekilde çekmiş olduk.
 5.İçinde ki eğerleri inceleyecek olursak;
 name değeri:Projemizin adını temsil eder(-y verdiğimiz için tüm sorulara doğrudan evet demiş olduk.)
 versiyon,açıklaması,main=ana(başlangıç)dosyasının index.js olduğunu belirtiyor,sonra çalıştırılabilir script dosyaları var, anahtar kelimeler,yazarın ismi,lisansımız mevcut.
+
+-y yapmadan da teker teker yapabilirdik
+ounu için de;

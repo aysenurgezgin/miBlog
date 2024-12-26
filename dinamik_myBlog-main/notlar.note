@@ -17,3 +17,5 @@ versiyon,açıklaması,main=ana(başlangıç)dosyasının index.js olduğunu bel
 
 -y yapmadan da teker teker yapabilirdik
 ounu için de;
+
+package.json dosyasını sil,

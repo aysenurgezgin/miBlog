@@ -18,4 +18,4 @@ versiyon,açıklaması,main=ana(başlangıç)dosyasının index.js olduğunu bel
 -y yapmadan da teker teker yapabilirdik
 ounu için de;
 
-package.json dosyasını sil,terminali aç (npm init) diyerek ilerliyeceğim,paket ismi sorucak ama zaten bana default olarak vermiş 
+package.json dosyasını sil,terminali aç (npm init) diyerek ilerliyeceğim,paket ismi sorucak ama zaten bana default olarak vermiş bunu uygun bulursam enter yaparım,versiyon belli bir projenin üstüne ekleme yapmıyoruz sıfırdan proje üretiyoruz  bu yüzden bizim versyonumuz ilk başta 0 olarak 1.0.0 olarak geliyor bu da uygun olduğu için enter deriz,Projemizin açıklama kısmı var mı istersek yazabiliriz (Dinamic web service),bizim projemizin 
